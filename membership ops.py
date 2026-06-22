@@ -15,13 +15,15 @@ elif final_grade in range(81,91):
     print("Your final grade is A2.")
 elif final_grade in range(71,81):
     print("Your final grade is B1.")
-elif final_grade in range(61,51):
+elif final_grade in range(61,71):
     print("Your final grade is B2.")
-elif final_grade in range(51,41):
+elif final_grade in range(51,61):
     print("Your final grade is C1.")
-elif final_grade in range(41,31):
+elif final_grade in range(41,51):
     print("Your final grade is C2.")
-elif final_grade in range(31,21):
+elif final_grade in range(41,31):
     print("Your final grade is D1.")
+elif final_grade in range(31,21):
+    print("Your final grade is D2.")
 else:
-    print("Your final grade is F1.")
+    print("Your final grade is F.")
